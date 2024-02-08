@@ -1,0 +1,21 @@
+.cv-card-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5; /* Бежевый цвет фона */
+    padding: 20px;
+    margin: 20px;
+}
+
+.cv-text {
+    width: 60%; /* Ширина блока с текстом */
+    color: #006400; /* Зеленый цвет текста */
+}
+
+.cv-image {
+    width: 40%; /* Ширина блока с изображением */
+}
+
+.cv-image img {
+    width: 100%; /* Растягиваем изображение на 100% ширины блока */
+    border-radius: 8px; /* Добавляем скругление углов для изображения */
+}
